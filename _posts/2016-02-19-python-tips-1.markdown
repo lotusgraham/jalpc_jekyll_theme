@@ -1,14 +1,17 @@
 ---
+title: Python代码优化Tips(一)
+date: '2016-02-19 00:00:00'
+categories:
+- Python
 layout: post
-title:  "Python代码优化Tips(一)"
-date:   2016-02-19
-desc: "Python代码优化"
-keywords: "Python,tips,优化"
-categories: [Python]
-tags: [优化]
+desc: Python代码优化
+keywords: Python,tips,优化
+tags:
+- "优化"
 icon: icon-python
----
+slug: python-tips-1
 
+---
 #### ①函数设计
 
 1. 函数设计尽量短小，嵌套层次不宜过深(3层)。

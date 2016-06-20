@@ -1,14 +1,18 @@
 ---
+title: ssh非root用户key认证登陆及忽略known_hosts
+date: '2015-02-02 00:00:00'
+categories:
+- Linux
 layout: post
-title:  "ssh非root用户key认证登陆及忽略known_hosts"
-date:   2015-02-02
-desc: "ssh非root用户key认证登陆及忽略known_hosts"
-keywords: "ssh,linux,key,known_hosts"
-categories: [Linux]
-tags: [ssh, key]
+desc: ssh非root用户key认证登陆及忽略known_hosts
+keywords: ssh,linux,key,known_hosts
+tags:
+- ssh
+- key
 icon: fa-linux
----
+slug: ssh-key
 
+---
 有些时候，我们不能使用root用户在正式环境服务器操作，此时可以使用普通用户，root用户的key认证登陆设置非常简单，普通用户的key认证登陆尝试好几次总算找到了原因，最终还是文件和文件夹权限的问题，下面简单说一下具体的key认证配置方法：（假设这里有两台服务器A、B，A服务器的jack用户要实现key认证登陆B服务器）
 
 在两台服务器上建立jack用户，在A服务器的jack用户下生成jack的公私钥，然后将jack的公钥放入B服务器下jack家目录的`.ssh/authorized_keys`里。

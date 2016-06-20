@@ -1,15 +1,17 @@
 ---
+title: Linux安装mysql-源码安装
+date: '2015-09-01 00:00:00'
+categories:
+- Database
 layout: post
-title:  "Linux安装mysql-源码安装"
-date:   2015-09-01
-desc: "Linux源码安装MySQL"
-keywords: "linux,mysql,安装,install"
-categories: [Database]
-tags: [MySQL]
+desc: Linux源码安装MySQL
+keywords: linux,mysql,安装,install
+tags:
+- MySQL
 icon: fa-database
+slug: linux-mysql
+
 ---
-
-
 1.假设已经有mysql-5.5.10.tar.gz以及cmake-2.8.4.tar.gz两个源文件
 
 (1)先安装cmake（mysql5.5以后是通过cmake来编译的）

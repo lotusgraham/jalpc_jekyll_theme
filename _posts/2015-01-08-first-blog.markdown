@@ -1,14 +1,17 @@
 ---
+title: "我的第一篇博客"
+date: '2015-01-08 00:00:00'
+categories:
+- Life
 layout: post
-title:  "我的第一篇博客"
 desc: "我的第一篇jekyll博客"
-keywords: "jekyll,blog,first"
-date: 2015-01-08
-categories: [Life]
-tags: [blog]
+keywords: jekyll,blog,first
+tags:
+- blog
 icon: fa-bookmark-o
----
+slug: first-blog
 
+---
 喜欢写Blog的人，会经历三个阶段。
 
 ```

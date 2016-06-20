@@ -1,14 +1,17 @@
 ---
+title: AngularJS Guide Chinese version
+date: '2016-06-15 00:00:00'
+categories:
+- HTML
 layout: post
-title:  "AngularJS Guide Chinese version"
-date:   2016-06-15
-desc: "AngularJS Guide Chinese version"
-keywords: "AngularJS,Chinese,Guide"
-categories: [HTML]
-tags: [AngularJS]
+desc: AngularJS Guide Chinese version
+keywords: AngularJS,Chinese,Guide
+tags:
+- AngularJS
 icon: icon-angular
----
+slug: angularjs-guide
 
+---
 AngularJS
 ===
 

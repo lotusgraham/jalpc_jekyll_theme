@@ -1,14 +1,17 @@
 ---
+title: "清洗 Git Repo 代码仓库"
+date: '2016-06-19 00:00:00'
+categories:
+- Linux
 layout: post
-title:  "清洗 Git Repo 代码仓库"
-date:   2016-06-19
 desc: "清洗 Git Repo 代码仓库"
-keywords: "git,repo,clean,清洗"
-categories: [Linux]
-tags: [Git]
+keywords: git,repo,clean,清洗
+tags:
+- Git
 icon: fa-git
----
+slug: clean-git-repo
 
+---
 ## 手动清理
 
 如果你们的代码仓库问题比较少，只有几个不该提交的文件，可以参考 Atlassian 的一篇关于[维护 Git Repo](https://confluence.atlassian.com/display/BITBUCKET/Maintaining+a+Git+Repository)的文章。

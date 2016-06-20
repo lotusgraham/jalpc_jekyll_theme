@@ -1,14 +1,17 @@
 ---
+title: LVS三种工作模式脚本及比较
+date: '2015-05-09 00:00:00'
+categories:
+- Linux
 layout: post
-title:  "LVS三种工作模式脚本及比较"
-date:   2015-05-09
-desc: "LVS的DR,TUN,NAT工作模式脚本及比较"
-keywords: "linux,lvs,dr,tun,nat"
-categories: [Linux]
-tags: [LVS]
+desc: LVS的DR,TUN,NAT工作模式脚本及比较
+keywords: linux,lvs,dr,tun,nat
+tags:
+- LVS
 icon: fa-linux
----
+slug: lvs
 
+---
 ```
 yum -y install ipvsadm
 modprobe -l|grep ipvs     ##检查ipvs的模块
@@ -18,7 +21,7 @@ modprobe -l|grep ipvs     ##检查ipvs的模块
 
 #### 一、DR模式
 
-![dr]({{ site.img_path }}/lvs/dr.jpg)
+![dr]({{ site.baseurl }}/static/img/blog/lvs/dr.jpg)
 
 堡垒机脚本：
 
@@ -90,7 +93,7 @@ real-server.sh
 
 #### 二、TUN模式
 
-![tun]({{ site.img_path }}/lvs/tun.jpg)
+![tun]({{ site.baseurl }}/static/img/blog/lvs/tun.jpg)
 
 堡垒机脚本：
 
@@ -168,7 +171,7 @@ real-server.sh
 
 #### 三、NAT模式
 
-![nat]({{ site.img_path }}/lvs/nat.jpg)
+![nat]({{ site.baseurl }}/static/img/blog/lvs/nat.jpg)
 
 堡垒机脚本：
 
@@ -243,6 +246,6 @@ VS-Nat 模式的后端机器不需要配置。
 
 附比较表格图:
 
-![bijiao]({{ site.img_path }}/lvs/bijiao.jpg)
+![bijiao]({{ site.baseurl }}/static/img/blog/lvs/bijiao.jpg)
 
 

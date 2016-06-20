@@ -1,14 +1,17 @@
 ---
+title: Python代码优化Tips(二)
+date: '2016-02-20 00:00:00'
+categories:
+- Python
 layout: post
-title:  "Python代码优化Tips(二)"
-date:   2016-02-20
-desc: "Python代码优化"
-keywords: "Python,tips,优化"
-categories: [Python]
-tags: [优化]
+desc: Python代码优化
+keywords: Python,tips,优化
+tags:
+- "优化"
 icon: icon-python
----
+slug: python-tips-2
 
+---
 #### ⑥使用enumerate()后去序列迭代的索引和值
 
 对于一个`list` : `li = ['a', 'b', 'c', 'd', 'e', 'f']`

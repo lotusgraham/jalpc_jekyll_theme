@@ -1,14 +1,18 @@
 ---
+title: "神奇的Python"
+date: '2016-06-02 00:00:00'
+categories:
+- Python
+- Life
 layout: post
-title:  "神奇的Python"
-desc: "Zen of Python"
-keywords: "zen,python,this,Python之禅"
-date:   2016-06-02
-categories: [Python, Life]
-tags: [Python]
+desc: Zen of Python
+keywords: zen,python,this,Python之禅
+tags:
+- Python
 icon: icon-python
----
+slug: zen-of-python
 
+---
 今天在Python中发现一个神奇的功能，在Python shell中输入`import this`，有如下展示：
 
 ```

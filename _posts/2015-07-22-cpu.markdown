@@ -1,14 +1,17 @@
 ---
+title: CPU使用率的计算方法
+date: '2015-07-22 00:00:00'
+categories:
+- Linux
 layout: post
-title:  "CPU使用率的计算方法"
-date:   2015-07-22
-desc: "CPU使用率的计算方法"
-keywords: "linux,CPU,usage"
-categories: [Linux]
-tags: [CPU]
+desc: CPU使用率的计算方法
+keywords: linux,CPU,usage
+tags:
+- CPU
 icon: fa-linux
----
+slug: cpu
 
+---
 在Linux系统中，可以用/proc/stat文件来计算cpu的利用率。这个文件包含了所有CPU活动的信息，该文件中的所有值都是从系统启动开始累计到当前时刻。
 
 ```

@@ -1,14 +1,17 @@
 ---
+title: nginx源码安装及安全
+date: '2015-03-03 00:00:00'
+categories:
+- Linux
 layout: post
-title:  "nginx源码安装及安全"
-date:   2015-03-03
-desc: "nginx源码安装及安全"
-keywords: "nginx,linux,safe,安全,安装"
-categories: [Linux]
-tags: [nginx]
+desc: nginx源码安装及安全
+keywords: nginx,linux,safe,安全,安装
+tags:
+- nginx
 icon: fa-linux
----
+slug: nginx
 
+---
 nginx安装版本为nginx-1.6.2.tar.gz，这个版本为目前最新的稳定版。
 
 安装之前需要安装pcre插件包，插件包版本为：pcre-8.36.tar.gz
@@ -41,6 +44,6 @@ nginx安装版本为nginx-1.6.2.tar.gz，这个版本为目前最新的稳定版
 
 二、如果想要把nginx也隐藏掉，需要编辑nginx源码中的src/core/nginx.h头文件nginx修改为Microsoft-IIS版本号改为7，修改后的截图如下
 
-![safe]({{ site.img_path }}/nginx/safe.jpg)
+![safe]({{ site.baseurl }}/static/img/blog/nginx/safe.jpg)
 
 

@@ -1,15 +1,20 @@
 ---
+title: From mysql to redis with python
+date: '2016-05-04 00:00:00'
+categories:
+- Python
+- Database
 layout: post
-title:  "From mysql to redis with python"
-desc: "MySQL to redis via Python"
-keywords: "mysql,redis,python"
-date:   2016-05-04
-categories: [Python, Database]
-tags: [Python, MySQL, Redis]
+desc: MySQL to redis via Python
+keywords: mysql,redis,python
+tags:
+- Python
+- MySQL
+- Redis
 icon: icon-redis
+slug: python-mysql-redis
+
 ---
-
-
 ``` python
 #!/usr/bin/python
 ## SQL to Redis

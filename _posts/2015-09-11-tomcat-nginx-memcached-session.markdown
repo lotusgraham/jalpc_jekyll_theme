@@ -1,16 +1,20 @@
 ---
+title: tomcat + memcached + nginx 实现session共享
+date: '2015-09-11 00:00:00'
+categories:
+- Linux
 layout: post
-title:  "tomcat + memcached + nginx 实现session共享"
-date:   2015-09-11
-desc: "tomcat + memcached + nginx 实现session共享"
-keywords: "linux,tomcat,memcached,nginx,session,share"
-categories: [Linux]
-tags: [tomcat, memcached, nginx, session]
+desc: tomcat + memcached + nginx 实现session共享
+keywords: linux,tomcat,memcached,nginx,session,share
+tags:
+- tomcat
+- memcached
+- nginx
+- session
 icon: fa-linux
+slug: tomcat-nginx-memcached-session
+
 ---
-
-
-
 这里重点强调如何实现linux服务器上 服务器session共享，软件安装不再赘述。
 
 首先我们需要对 cookie 和session的工作机制非常了解，如果不了解其中的原理，就算配置成功，也毫无意义。换了工作换了环境，重新配置起来仍然需要重头来过，事倍功半。

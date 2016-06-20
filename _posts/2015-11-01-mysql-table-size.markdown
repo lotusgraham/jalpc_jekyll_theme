@@ -1,14 +1,19 @@
 ---
+title: MySQL查看表大小
+date: '2015-11-01 00:00:00'
+categories:
+- Database
 layout: post
-title:  "MySQL查看表大小"
-date:   2015-11-1
-desc: "MySQL查看表大小"
-keywords: "Linux,MySQL,table,size"
-categories: [Database]
-tags: [MySQL,table,大小]
+desc: MySQL查看表大小
+keywords: Linux,MySQL,table,size
+tags:
+- MySQL
+- table
+- "大小"
 icon: fa-database
----
+slug: mysql-table-size
 
+---
 方法一：
 
 在MySQL的data目录下查看，前提是my.cnf中配置了innodb_file_per_table

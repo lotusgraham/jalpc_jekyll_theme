@@ -1,14 +1,20 @@
 ---
+title: "通过supervisord管理celery守护进程"
+date: '2016-02-04 00:00:00'
+categories:
+- Python
+- Linux
 layout: post
-title:  "通过supervisord管理celery守护进程"
-date:   2016-02-04
 desc: "通过supervisord管理celery守护进程"
-keywords: "Python,supervisord,celery"
-categories: [Python,Linux]
-tags: [django,celery,supervisord]
+keywords: Python,supervisord,celery
+tags:
+- django
+- celery
+- supervisord
 icon: fa-linux
----
+slug: supervisord-celery
 
+---
 #### Why Supervisord
 
 supervisord是一个python写的守护进程管理工具，功能非常实用。
@@ -112,5 +118,5 @@ supervisorctl stop celery:celery-0
 ```
 
 浏览器访问http://10.1.1.1:1222/ 还可以通过web对这些进程进行管理
-![celery]({{ site.img_path }}/supervisord_celery/celery-web.jpg)
+![celery]({{ site.baseurl }}/static/img/blog/supervisord_celery/celery-web.jpg)
 

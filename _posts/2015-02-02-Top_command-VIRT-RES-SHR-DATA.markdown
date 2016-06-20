@@ -1,14 +1,17 @@
 ---
+title: Top命令VIRT,RES,SHR,DATA的含义
+date: '2015-02-02 00:00:00'
+categories:
+- Linux
 layout: post
-title:  "Top命令VIRT,RES,SHR,DATA的含义"
-date:   2015-02-02
-desc: "Linux Top命令VIRT,RES,SHR,DATA的含义"
-keywords: "top,linux,virt,res,shr,data"
-categories: [Linux]
-tags: [top]
+desc: Linux Top命令VIRT,RES,SHR,DATA的含义
+keywords: top,linux,virt,res,shr,data
+tags:
+- top
 icon: fa-linux
----
+slug: Top_command-VIRT-RES-SHR-DATA
 
+---
 #### VIRT：virtual memory usage
 
 1. 进程“需要的”虚拟内存大小，包括进程使用的库、代码、数据等

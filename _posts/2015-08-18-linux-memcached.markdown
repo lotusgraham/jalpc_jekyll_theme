@@ -1,14 +1,17 @@
 ---
+title: memcached源码安装、错误处理及启动参数
+date: '2015-08-18 00:00:00'
+categories:
+- Linux
 layout: post
-title:  "memcached源码安装、错误处理及启动参数"
-date:   2015-08-18
-desc: "memcached源码安装、错误处理及启动参数"
-keywords: "linux,memcached,安装"
-categories: [Linux]
-tags: [memcached]
+desc: memcached源码安装、错误处理及启动参数
+keywords: linux,memcached,安装
+tags:
+- memcached
 icon: fa-database
----
+slug: linux-memcached
 
+---
 memcached服务安装：
 
 源码包：memcached-1.4.21.tar.gz

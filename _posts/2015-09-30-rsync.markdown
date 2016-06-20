@@ -1,14 +1,18 @@
 ---
+title: rsync简单使用
+date: '2015-09-30 00:00:00'
+categories:
+- Linux
 layout: post
-title:  "rsync简单使用"
-date:   2015-09-30
-desc: "rsync使用"
-keywords: "linux,rsync"
-categories: [Linux]
-tags: [rsync, 共享]
+desc: rsync使用
+keywords: linux,rsync
+tags:
+- rsync
+- "共享"
 icon: fa-linux
----
+slug: rsync
 
+---
 无用户名密码共享文件：
 
 ```

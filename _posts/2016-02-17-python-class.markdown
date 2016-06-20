@@ -1,14 +1,17 @@
 ---
+title: Python 元类
+date: '2016-02-17 00:00:00'
+categories:
+- Python
 layout: post
-title:  "Python 元类"
-date:   2016-02-17
-desc: "Python元类"
-keywords: "Python,metaclass"
-categories: [Python]
-tags: [metaclass]
+desc: Python元类
+keywords: Python,metaclass
+tags:
+- metaclass
 icon: icon-python
----
+slug: python-class
 
+---
 #### type()
 
 动态语言和静态语言最大的不同，就是函数和类的定义，不是编译时定义的，而是运行时动态创建的。

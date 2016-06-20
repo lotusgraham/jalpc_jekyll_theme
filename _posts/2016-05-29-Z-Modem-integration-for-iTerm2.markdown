@@ -1,14 +1,17 @@
 ---
+title: "使用iTerm2上传下载文件"
+date: '2016-05-29 00:00:00'
+categories:
+- Mac
 layout: post
-title:  "使用iTerm2上传下载文件"
 desc: "在Mac上使用iTerm2确实让Linux终端操作方便的很多，加上[oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)这个强大shell的利器，敲命令就像滚键盘一样。"
-keywords: "iterm,mac,lrzsz,oh-my-zsh"
-date:   2016-05-29
-categories: [Mac]
-tags: [Mac]
+keywords: iterm,mac,lrzsz,oh-my-zsh
+tags:
+- Mac
 icon: fa-apple
----
+slug: Z-Modem-integration-for-iTerm2
 
+---
 在Mac上使用iTerm2确实让Linux终端操作方便的很多，加上[oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)这个强大shell的利器，敲命令就像滚键盘一样。
 
 但是iTerm2没有对文件上传下载进行支持，这个是要比secureCRT弱的地方，不过我们总有办法能够解决，因为iTerm2足够强大，下面是利用rz/sz工具来实现文件上传下载的方法：

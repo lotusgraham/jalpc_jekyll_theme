@@ -1,14 +1,17 @@
 ---
+title: Apache tomcat在Linux上安装部署
+date: '2015-03-12 00:00:00'
+categories:
+- Linux
 layout: post
-title:  "Apache tomcat在Linux上安装部署"
-date:   2015-03-12
-desc: "Apache tomcat在Linux上安装部署"
-keywords: "linux,apache,tomcat"
-categories: [Linux]
-tags: [tomcat]
+desc: Apache tomcat在Linux上安装部署
+keywords: linux,apache,tomcat
+tags:
+- tomcat
 icon: fa-linux
----
+slug: linux-tomcat
 
+---
 tomcat是在java容器中运行的，首先需要下载jdk的Linux包，然后下载Apache tomcat的Linux包，这些在官网都能够下载到。
 
 jdk和tomcat

@@ -1,14 +1,18 @@
 ---
+title: Python challenge 12
+date: '2015-02-26 00:00:00'
+categories:
+- Python
 layout: post
-title:  "Python challenge 12"
-date:   2015-02-26
-desc: "Python challenge"
-keywords: "Python,challenge"
-categories: [Python]
-tags: [Python,Challenge]
+desc: Python challenge
+keywords: Python,challenge
+tags:
+- Python
+- Challenge
 icon: fa-code
----
+slug: python-challenge12
 
+---
 Python challenge好像荒废很久了，今天把challenge 12补上。
 第十二题地址为:<http://www.pythonchallenge.com/pc/return/evil.html>
 
@@ -16,7 +20,7 @@ Python challenge好像荒废很久了，今天把challenge 12补上。
 <http://www.pythonchallenge.com/pc/return/evil1.jpg>是网页,
 <http://www.pythonchallenge.com/pc/return/evil2.jpg>是下面的图片：
 
-![evil2]({{ site.img_path }}/python_challenge12/evil2.jpg)
+![evil2]({{ site.baseurl }}/static/img/blog/python_challenge12/evil2.jpg)
 
 打开网址：<http://www.pythonchallenge.com/pc/return/evil2.gfx> 发现是一个二进制文档，还是没什么头绪
 继续打开<http://www.pythonchallenge.com/pc/return/evil3.jpg> 是下面的图片：
@@ -41,14 +45,14 @@ for i in range(5):
 
 得到如下图片：
 
-![0]({{ site.img_path }}/python_challenge12/0.jpg)
+![0]({{ site.baseurl }}/static/img/blog/python_challenge12/0.jpg)
 
-![1]({{ site.img_path }}/python_challenge12/1.png)
+![1]({{ site.baseurl }}/static/img/blog/python_challenge12/1.png)
 
-![2]({{ site.img_path }}/python_challenge12/2.gif)
+![2]({{ site.baseurl }}/static/img/blog/python_challenge12/2.gif)
 
-![3]({{ site.img_path }}/python_challenge12/3.png)
+![3]({{ site.baseurl }}/static/img/blog/python_challenge12/3.png)
 
-![4]({{ site.img_path }}/python_challenge12/4.jpg)
+![4]({{ site.baseurl }}/static/img/blog/python_challenge12/4.jpg)
 
 最后一张图片的字母划掉了，所以答案是：**disproportional**

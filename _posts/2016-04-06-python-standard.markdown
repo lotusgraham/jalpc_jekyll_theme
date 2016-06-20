@@ -1,14 +1,17 @@
 ---
+title: PEP8 Python 编码规范整理
+date: '2016-04-06 00:00:00'
+categories:
+- Python
 layout: post
-title:  "PEP8 Python 编码规范整理"
-date:   2016-04-06
-desc: "Python编码规范"
-keywords: "PEP8,Python"
-categories: [Python]
-tags: [优化]
+desc: Python编码规范
+keywords: PEP8,Python
+tags:
+- "优化"
 icon: icon-python
----
+slug: python-standard
 
+---
 #### 一、代码编排
 
 1. 缩进。4个空格的缩进（编辑器都可以完成此功能），不使用Tap，更不能混合使用Tap和空格。

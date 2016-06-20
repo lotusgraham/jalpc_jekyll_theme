@@ -1,14 +1,19 @@
 ---
+title: Django的权限机制
+date: '2016-02-06 00:00:00'
+categories:
+- Python
 layout: post
-title:  "Django的权限机制"
-date:   2016-02-06
-desc: "django权限机制"
-keywords: "Python,django,permission"
-categories: [Python]
-tags: [django,permission,权限]
+desc: django权限机制
+keywords: Python,django,permission
+tags:
+- django
+- permission
+- "权限"
 icon: icon-python
----
+slug: django-permission
 
+---
 #### 一、Django权限机制概述
 
 权限机制能够约束用户行为，控制页面的显示内容，也能使API更加安全和灵活；用好权限机制，能让系统更加强大和健壮。因此，基于Django的开发，理清Django权限机制是非常必要的。
